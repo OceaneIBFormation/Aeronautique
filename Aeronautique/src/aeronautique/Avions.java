@@ -5,6 +5,7 @@ public class Avions {
 	private String nomAv;
 	private int capacite;
 	private String loc;
+	private int enPlus;
 	
 	
 	@Override
