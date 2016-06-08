@@ -20,5 +20,25 @@ public class Avions {
 		this.capacite = capacite;
 		this.loc = loc;
 	}
+
+
+	public int getNUM_AV() {
+		return NUM_AV;
+	}
+
+
+	public void setNUM_AV(int nUM_AV) {
+		NUM_AV = nUM_AV;
+	}
+
+
+	public String getNomAv() {
+		return nomAv;
+	}
+
+
+	public void setNomAv(String nomAv) {
+		this.nomAv = nomAv;
+	}
 	
 }
