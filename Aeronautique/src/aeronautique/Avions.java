@@ -22,6 +22,7 @@ public class Avions {
 	}
 
 
+	
 	public int getNUM_AV() {
 		return NUM_AV;
 	}
@@ -39,6 +40,26 @@ public class Avions {
 
 	public void setNomAv(String nomAv) {
 		this.nomAv = nomAv;
+	}
+
+
+	public int getCapacite() {
+		return capacite;
+	}
+
+
+	public void setCapacite(int capacite) {
+		this.capacite = capacite;
+	}
+
+
+	public String getLoc() {
+		return loc;
+	}
+
+
+	public void setLoc(String loc) {
+		this.loc = loc;
 	}
 	
 }
